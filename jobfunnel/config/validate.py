@@ -36,8 +36,8 @@ def validate_delay(delay):
         raise ConfigError('(min)_delay')
 
     # minimum delay should be at least 1 and maximum delay at least 10
-    if delay['delay'] < 10 or delay['min_delay'] < 1:
-        raise ConfigError('(min)_delay')
+    # if delay['delay'] < 10 or delay['min_delay'] < 1:
+    #     raise ConfigError('(min)_delay')
 
 
 def validate_config(config):

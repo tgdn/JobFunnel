@@ -37,5 +37,5 @@ CONFIG_TYPES = {
 }
 
 PROVIDERS = ['glassdoor', 'indeed', 'monster']
-DOMAINS = ['com', 'ca']
+DOMAINS = ['com', 'ca', 'co.uk']
 DELAY_FUN = ['constant', 'linear', 'sigmoid']
